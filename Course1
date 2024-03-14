@@ -1,12 +1,27 @@
-What are the key concepts you learnt from these courses
-You can choose one module from the list below:-
-1)Algorithm Analysis
-2)Divide and Conquer Algorithms
-3)Dynamic Programming
+Algorithm Analysis:
+Algorithm analysis is an important part of computational complexity theory, which provides theoretical estimation for the required resources of an algorithm to solve a specific computational problem. Analysis of algorithms is the determination of the amount of time and space resources required to execute it.
 
+Why Analysis of Algorithms is important?
 
-Pawan Dubey
-Dynamic Programming
-Understanding the prolem and implementing a solution which is space and time efficient by structuring it into sub problems.
+To predict the behavior of an algorithm without implementing it on a specific computer.
+It is much more convenient to have simple measures for the efficiency of an algorithm than to implement the algorithm and test the efficiency every time a certain parameter in the underlying computer system changes.
+It is impossible to predict the exact behavior of an algorithm. There are too many influencing factors.
+The analysis is thus only an approximation; it is not perfect.
+More importantly, by analyzing different algorithms, we can compare them to determine the best one for our purpose.
 
+Types of Algorithm Analysis:
 
+Best case 
+Worst case
+Average case
+
+Best case: Define the input for which algorithm takes less time or minimum time. In the best case calculate the lower bound of an algorithm. Example: In the linear search when search data is present at the first location of large data then the best case occurs.
+
+Worst Case: Define the input for which algorithm takes a long time or maximum time. In the worst calculate the upper bound of an algorithm. Example: In the linear search when search data is not present at all then the worst case occurs.
+
+Average case: In the average case take all random inputs and calculate the computation time for all inputs.
+
+And then we divide it by the total number of inputs.
+          Average case = all random case time / total no of case
+
+           
